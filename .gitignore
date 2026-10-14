@@ -1,0 +1,15 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfplan
+.terraform.lock.hcl
+
+# Secrets and environment-specific values
+*.tfvars
+!*.tfvars.example
+.env
+
+# macOS
+.DS_Store
